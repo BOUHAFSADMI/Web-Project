@@ -1,0 +1,335 @@
+
+/**********index************/
+
+
+body{
+    margin: 5% 5% 5% 5%;
+    background-color:#fafafa;
+}
+
+input.validation{
+    cursor: hand;
+}
+
+ul.menu>li{
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    list-style: none;
+}
+
+nav li#login
+{
+    float:right;
+    margin-right:5px;
+}
+
+nav li a{
+    font-size: 18px;
+}
+
+header ul.menu>li>a{
+    color: white;
+
+}
+
+header ul.menu{
+    background-color: #212121;
+    width: 95%;
+    height: 50px;
+}
+
+footer ul.menu
+{
+    margin-left: 20%;
+}
+
+
+
+/***************home**************/
+
+div#slide{
+    height: 400px;
+    width: 600px;
+    margin-left: 600px;
+    overflow: hidden;
+    border: 0px ;
+    background: #e0e0e0;
+}
+
+
+
+@keyframes animation{
+	0%{margin-top:0px;}
+	33%{margin-top:-420px;}
+	66%{margin-top:-820px;}
+	100%{margin-top:-1220px;}
+}
+
+
+div#slide-img{
+    width: 50%;
+    margin-top: 40px;
+    animation: animation;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+div#slide-img h3{
+    width: 600px;
+    margin-left: 280px;
+    padding: 10px 10px 10px 10px;
+    margin-top: -40px;
+    color: #fafafa;
+}
+
+
+div#slide-img:hover{
+  animation-play-state:paused;
+}
+
+
+div#slide-img>img{
+    height: 500px;
+    width: 900px;
+}
+
+div#news{
+    background-color: #e0e0e0;
+    border: 0px solid #9e9e9e;
+    margin: 5px 5px 5px 5px;
+}
+
+div#news>fieldset{
+    display: inline-block;
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin: 0 0 10px 10px;
+    border:0px solid #9e9e9e;
+    background-color: #9e9e9e;
+    font-size: 16px;
+    font-family: "Book Antiqua";
+    box-shadow:2px 2px #fafafa;
+}
+
+footer{
+    clear: left;
+}
+
+div#exp{
+    display: block;
+    float: left;
+}
+
+div#pres{
+    width: 500px;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    font-family: "Book Antiqua";
+    box-shadow:2px 2px #949494;
+}
+
+
+div#obj{
+    clear: left;
+    background-color: #e0e0e0;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    font-size: 16px;
+    font-family: "Book Antiqua";
+    box-shadow:2px 2px #949494;
+}
+
+#section{
+    margin-top: 30px;
+    display: flex;
+    float: right;
+}
+
+
+aside#events{
+    background-color: #e0e0e0;
+    border: 0px solid #9e9e9e;
+    margin: 5px 5px 5px 5px;
+}
+
+div.events{
+    border: 0px solid #9e9e9e;
+    width: 400px;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    background-color: #9e9e9e;
+    font-family: "Book Antiqua";
+    border-top: 0px solid #212121;
+    border-bottom: 0px solid #212121;
+}
+
+div.events h3{
+    color: #fafafa;
+}
+
+aside#events img ,aside#events h3{
+    margin: 5px 5px 5px 5px;
+    display: inline;
+}
+
+
+
+h2{
+    padding: 0px 10px 0px 10px;
+}
+
+div#more{
+    clear: both;
+}
+
+legend{
+    background-color: #fafafa;
+}
+
+fieldset a{
+    color: #fafafa;
+    background-color: #212121;
+}
+
+div#more a,div#more h2{
+    color: #fafafa;
+    background-color: #212121;
+    margin-left: 10px;
+    width: 100px;
+}
+
+fieldset p{
+    color: #fafafa;
+}
+
+
+/************news.php************/
+
+div#list{
+    clear: left;
+    color: #fafafa;
+    margin-left: 500px;
+}
+
+div#list button
+{
+    background-color: #212121;
+    color: #fafafa;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+div#list a
+{
+    color: #fafafa;
+    width: 30px;
+    height: 30px;
+}
+/*************auth/insc***************/
+
+input.input{
+    width: 250px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    border: 0px ;
+    font-size: 16px;
+}
+
+.validation{
+    background-color: #212121;
+    color: #fafafa;
+}
+
+div#inscription, div#connexion{
+    margin-left: 40%;
+}
+
+a#insc{
+    margin-left:17%;
+}
+
+
+/************chercheur**********/
+li.cadre
+{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    background-color: #9e9e9e;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+/**************chercheur details****************/
+div#info
+{
+    width: 600px;
+    height: 100%;
+    margin-left: 300px;
+}
+
+
+/******journaux************/
+
+div#journal
+{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: #9e9e9e;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+
+div#journal legend
+{
+    background-color: #212121;
+}
+
+p#contenuConf
+{
+    width: 500px;
+    border: 2px solid #212121;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+ul#contenuId
+{
+    margin-top: -65px;
+    height: 30px;
+}
+
+
+/**************admin****************/
+
+div.ConfigSection
+{
+    background-color: #e0e0e0;
+    padding: 5px 5px 5px 5px;
+}
+
+
+div#comment{
+    background-color: #fafafa;
+    border: 1px solid #212121;
+    margin: 10px 10px 10px 10px;
+}
+
+
+div#weather{
+    width:200px;
+    height: 200px;
+}
